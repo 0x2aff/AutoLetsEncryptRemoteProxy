@@ -10,8 +10,8 @@
 		    - "./data/html:/usr/local/apache2/htdocs/"
 	    environment:
 		    VIRTUAL_HOST: "<YOURURL.TLD>"
-		    LETSENCRYPT_HOST: "YOURURL.TLD"
-		    LETSENCRYPT_EMAIL: "MAIL@YOURURL.TLD"
+		    LETSENCRYPT_HOST: "<YOURURL.TLD>"
+		    LETSENCRYPT_EMAIL: "<MAIL@YOURURL.TLD>"
     networks:
 	    default:
 		    external:
